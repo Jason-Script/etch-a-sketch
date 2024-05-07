@@ -1,5 +1,6 @@
 const grid = document.getElementById("grid-container");
 const generateButton = document.getElementById("generate-grid-button");
+const pixel = document.querySelector(".grid-pixel");
 
 // Generate individual row, to be used in generateGrid();
 function generateRow(size) {
@@ -10,6 +11,9 @@ function generateRow(size) {
         let pixel = document.createElement("div");
         pixel.classList.add("grid-pixel");
         gridRow.appendChild(pixel);
+        pixel.addEventListener("mouseover", () => {
+            pixel.style.backgroundColor = "black";
+        });
     }
 }
 

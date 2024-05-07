@@ -14,15 +14,15 @@ body {
     display: flex;
     width: 99vw;
     height: 10vh;
-    border: solid 2px blue;
+    border: solid 2px black;
     justify-content: center;
 }
 
 #grid-container {
     display: flex;
-    width: 99vw;
+    width: 70vw;
     height: 88vh;
-    border: solid 2px red;
+    border: solid 2px black;
     flex-direction: column;
 }
 
@@ -34,7 +34,7 @@ body {
 .grid-pixel {
     display: flex;
     flex: 1 1 0;
-    border: solid 1px green;
+    border: solid 1px whitesmoke;
 }
 
 #generate-grid-button {
