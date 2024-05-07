@@ -1,0 +1,42 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#toolbar {
+    display: flex;
+    width: 99vw;
+    height: 10vh;
+    border: solid 2px blue;
+    justify-content: center;
+}
+
+#grid-container {
+    display: flex;
+    width: 99vw;
+    height: 88vh;
+    border: solid 2px red;
+    flex-direction: column;
+}
+
+.grid-row {
+    display: flex;
+    flex: 1 1 0;
+}
+
+.grid-pixel {
+    display: flex;
+    flex: 1 1 0;
+    border: solid 1px green;
+}
+
+#generate-grid-button {
+    font-weight: bold;
+}
